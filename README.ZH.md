@@ -1,4 +1,4 @@
-<h1 style="font-size: 40px;color: #222; text-align: center">babel-plugin-library</h1>
+<h1 align="center">babel-plugin-library</h1>
 <div align="center">
   <img width="300" src="https://raw.githubusercontent.com/AaronBank/static-files/master/images/tool-babel.jpg" alt="tool-libraries">
 </div>
