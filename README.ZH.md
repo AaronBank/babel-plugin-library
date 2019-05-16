@@ -5,31 +5,31 @@
 
 <div align="center">
   <br />
-  <a href="https://github.com/AaronBank/babel-plugin-library/blob/master/README.ZH.md">Chinese</a> | 
-  <a href="https://github.com/AaronBank/babel-plugin-library">English</a>
+  <a href="https://github.com/AaronBank/babel-plugin-library/blob/master/README.ZH.md">中文文档</a>
+  <a href="https://github.com/AaronBank/babel-plugin-library" style="margin-left: 12px;">英文文档</a>
   <br /><br />
-  <img src="https://img.shields.io/badge/license-MIT-green.svg"/> 
-  <img src="https://img.shields.io/badge/npm-v6.5.0-blue.svg"/> 
-  <img src="https://img.shields.io/badge/Version-1.0.0-brightgreen.svg"/>
+  <img src="https://img.shields.io/badge/license-MIT-green.svg"/>
+  <img src="https://img.shields.io/badge/npm-v6.5.0-blue.svg" style="margin-left: 12px;"/>
+  <img src="https://img.shields.io/badge/Version-1.0.0-brightgreen.svg" style="margin-left: 12px;"/>
 </div>
 <br/>
 
 <div align="center">
   <a href="https://github.com/AaronBank/tool-libraries">tool-libraries</a>
-  load <b>babel</b> plugin on demand
+  按需加载<b>babel</b>插件
 </div>
 
-### Installation
+### 安装
 
 ```javascript
 npm install babel-plugin-library --save-dev
 ```
 
-### Use
+### 使用
 
-**Method 1：Configure in `.babelrc`**
+**方式一：在 `.babelrc` 里进行配置(推荐)**
 
-- `.babelrc`
+- `.babelrc`配置
 
 ```javascript
 {
@@ -42,7 +42,7 @@ npm install babel-plugin-library --save-dev
 }
 ```
 
-> `webpack`
+> `webpack`配置
 
 ```javascript
 module: {
@@ -55,7 +55,7 @@ module: {
 
 ---
 
-**Method 2：Configure directly in `webpack`**
+**方式二：直接在 `webpack` 里进行配置**
 
 ```javascript
 module.exports = {
@@ -78,13 +78,13 @@ module.exports = {
 }
 ```
 
-### Conversion
+### 转化
 
 ```javascript
-// Before conversion =>
+// 转化前 =>
 import { types } from 'tool-libraries'
 
-// After conversion =>
+// 转化后 =>
 import equal from 'tool-libraries/lib/types'
 ```
 
