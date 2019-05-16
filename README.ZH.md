@@ -1,6 +1,6 @@
 <h1 align="center">babel-plugin-library</h1>
 <div align="center">
-  <img width="300" src="https://raw.githubusercontent.com/AaronBank/static-files/master/images/tool-babel.jpg" alt="tool-libraries">
+  <img width="300" src="https://raw.githubusercontent.com/AaronBank/static-files/master/images/tool-babel.jpg" alt="babel-plugin-library">
 </div>
 
 <div align="center">
