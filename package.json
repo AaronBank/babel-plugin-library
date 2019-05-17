@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tool-libraries and tool-libraries-daling Load plugins on demand",
   "main": "index.js",
   "scripts": {
