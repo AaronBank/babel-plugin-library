@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AaronBank/babel-plugin-tool.git"
+    "url": "git+https://github.com/AaronBank/babel-plugin-library.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AaronBank/babel-plugin-tool/issues"
+    "url": "https://github.com/AaronBank/babel-plugin-library/issues"
   },
-  "homepage": "https://github.com/AaronBank/babel-plugin-tool#readme",
+  "homepage": "https://github.com/AaronBank/babel-plugin-library#readme",
   "devDependencies": {
     "babel-types": "^6.26.0"
   }
